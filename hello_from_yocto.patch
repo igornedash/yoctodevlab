@@ -1,0 +1,10 @@
++++ .a/hello_from_yocto.c	2017-03-15 12:19:13.370865288 +0200
+--- .b/hello.c	2017-03-15 12:17:19.290865288 +0200
+@@ -1,6 +1,6 @@
+ #include <stdio.h>
+ 
+ int main(int argc,char **argv) {
++    printf("Hello from Yocto!\n");
+-    printf("Hello World!\n");
+     return 0;
+ }
