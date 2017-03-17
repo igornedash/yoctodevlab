@@ -1,0 +1,3 @@
+do_compile() {
+	     ${CC} ${CFLAGS} ${LDFLAGS} helloworld.c -o helloworld
+}
